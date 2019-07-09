@@ -1,0 +1,19 @@
+<p>my-component works!</p>
+
+<h3> One Way Binding - {{interploation}} </h3>
+
+<br /><br /><br />
+
+<h3> One Way Binding - Attribute Binding example </h3> <br />
+<input type="text" [value]="attValue" /> 
+
+<br /><br /><br />
+
+<h3> One Way Binding - Event example </h3> <br />
+<input type="text" (change)="onInputChange($event)" /> 
+
+<br /><br /><br />
+
+<h3> Two Way Binding - Attribute Binding example </h3> <br />
+<input type="text" [(ngModel)]="twoWay" >
+<p> value entered - {{twoWay}} </p>
